@@ -135,16 +135,20 @@
         android:id="@+id/Spinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Mode"/>
+        android:layout_below="@id/Mode"
+        android:entries="@array/Mode"/>
 
     <Button
+        android:id="@+id/Map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Favorite"
         android:layout_toStartOf="@id/NewBtn"
         android:layout_marginEnd="30dp"
         android:layout_marginTop="10dp"
-        android:text="@string/open_map"/>
+        android:text="@string/route"
+        android:onClick="onRoute"/>
+
 
 
 </RelativeLayout>

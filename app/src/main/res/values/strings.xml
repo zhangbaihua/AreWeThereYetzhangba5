@@ -16,6 +16,6 @@
     <string name="exception">Failed to communicate with geolocation services</string>
     <string name="couldnotfind">Unable to locate address</string>
     <string name="set_favorite">Set Favorite</string>
-    <string name="open_map">Open Map</string>
+    <string name="route">Route</string>
     <string name="transportation_mode">Transportation Mode</string>
 </resources>
